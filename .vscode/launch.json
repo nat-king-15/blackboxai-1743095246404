@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "PHP Server",
+            "type": "php",
+            "request": "launch",
+            "port": 9000,
+            "cwd": "${workspaceRoot}",
+            "runtimeExecutable": "php",
+            "runtimeArgs": [
+                "-S",
+                "localhost:8000",
+                "-t",
+                "."
+            ]
+        }
+    ]
+}
